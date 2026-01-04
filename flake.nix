@@ -26,9 +26,9 @@
   outputs =
     { self, ... }@inputs:
     {
-      syntax-highlighting = inputs.zsh-syntax-highlighting;
-      zsh-completions = inputs.zsh-completions;
-      zsh-autosuggestions = inputs.zsh-autosuggestions;
+      syntax-highlighting = inputs.syntax-highlighting;
+      zsh-completions = inputs.completions;
+      zsh-autosuggestions = inputs.autosuggestions;
       fzf-tab = inputs.fzf-tab;
     };
 }
