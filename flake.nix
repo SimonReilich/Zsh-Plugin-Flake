@@ -27,8 +27,8 @@
     { self, ... }@inputs:
     {
       syntax-highlighting = inputs.syntax-highlighting;
-      zsh-completions = inputs.completions;
-      zsh-autosuggestions = inputs.autosuggestions;
+      completions = inputs.completions;
+      autosuggestions = inputs.autosuggestions;
       fzf-tab = inputs.fzf-tab;
     };
 }
