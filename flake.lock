@@ -1,5 +1,37 @@
 {
   "nodes": {
+    "autosuggestions": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750781703,
+        "narHash": "sha256-KmkXgK1J6iAyb1FtF/gOa0adUnh1pgFsgQOUnNngBaE=",
+        "owner": "zsh-users",
+        "repo": "zsh-autosuggestions",
+        "rev": "85919cd1ffa7d2d5412f6d3fe437ebdbeeec4fc5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zsh-users",
+        "repo": "zsh-autosuggestions",
+        "type": "github"
+      }
+    },
+    "completions": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1766811502,
+        "narHash": "sha256-Bn+x/NS3N4wxP6mYa+jDAxAthaFck8eUndJb4QgnlG0=",
+        "owner": "zsh-users",
+        "repo": "zsh-completions",
+        "rev": "2733ff9818686886352f581620d1ee3b9c8c8072",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zsh-users",
+        "repo": "zsh-completions",
+        "type": "github"
+      }
+    },
     "fzf-tab": {
       "flake": false,
       "locked": {
@@ -18,45 +50,13 @@
     },
     "root": {
       "inputs": {
+        "autosuggestions": "autosuggestions",
+        "completions": "completions",
         "fzf-tab": "fzf-tab",
-        "zsh-autosuggestions": "zsh-autosuggestions",
-        "zsh-completions": "zsh-completions",
-        "zsh-syntax-highlighting": "zsh-syntax-highlighting"
+        "syntax-highlighting": "syntax-highlighting"
       }
     },
-    "zsh-autosuggestions": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1750781703,
-        "narHash": "sha256-KmkXgK1J6iAyb1FtF/gOa0adUnh1pgFsgQOUnNngBaE=",
-        "owner": "zsh-users",
-        "repo": "zsh-autosuggestions",
-        "rev": "85919cd1ffa7d2d5412f6d3fe437ebdbeeec4fc5",
-        "type": "github"
-      },
-      "original": {
-        "owner": "zsh-users",
-        "repo": "zsh-autosuggestions",
-        "type": "github"
-      }
-    },
-    "zsh-completions": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1766811502,
-        "narHash": "sha256-Bn+x/NS3N4wxP6mYa+jDAxAthaFck8eUndJb4QgnlG0=",
-        "owner": "zsh-users",
-        "repo": "zsh-completions",
-        "rev": "2733ff9818686886352f581620d1ee3b9c8c8072",
-        "type": "github"
-      },
-      "original": {
-        "owner": "zsh-users",
-        "repo": "zsh-completions",
-        "type": "github"
-      }
-    },
-    "zsh-syntax-highlighting": {
+    "syntax-highlighting": {
       "flake": false,
       "locked": {
         "lastModified": 1732201766,
